@@ -1,0 +1,31 @@
+{
+    "name": "ayzamodul/projectmanagement",
+    "description": "ayzamodul projectmanagement",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.8.28"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "ayzamodul\\projectmanagement\\" : "src"
+        }
+
+    },
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Berkay ÜNLÜ",
+            "email": "brky.unluu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ayzamodul\\projectmanagement\\providers\\ProjectServiceProvider"
+            ]
+        }
+    }
+}
