@@ -1,6 +1,6 @@
 {
-    "name": "ayzamodul/projectmanagement",
-    "description": "ayzamodul projectmanagement",
+    "name": "g3ntl3m3n/projectmanagement",
+    "description": "g3ntl3m3n projectmanagement",
     "type": "library",
     "require": {
         "illuminate/support": "^5.8.28"
@@ -8,7 +8,7 @@
 
     "autoload": {
         "psr-4": {
-            "ayzamodul\\projectmanagement\\" : "src"
+            "g3ntl3m3n\\projectmanagement\\" : "src"
         }
 
     },
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ayzamodul\\projectmanagement\\providers\\ProjectServiceProvider"
+                "g3ntl3m3n\\projectmanagement\\providers\\ProjectServiceProvider"
             ]
         }
     }

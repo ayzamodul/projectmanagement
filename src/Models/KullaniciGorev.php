@@ -13,9 +13,9 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class KullaniciGorev extends Authenticatable
 {
-    protected $table = 'kullanici_gorev';
+    protected $table = 'user_task';
 
 
-    protected $fillable = ['kullanici_id','gorev_id','gorevler_id'];
+    protected $fillable = ['user_id','gorev_id','gorevler_id'];
 
 }

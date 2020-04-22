@@ -28,7 +28,7 @@ class Gorev extends Authenticatable
 
 public function comments()
 {
-    return $this->hasMany(Comment::class)->where('deleted',0);
+    return $this->hasMany(Comment::class)->where('isDelete',0);
 }
 
 
@@ -40,11 +40,11 @@ public function calisanlar()
 
 public function tasks()
 {
-    return $this->hasMany(Gorevler::class)->where('deleted',0);
+    return $this->hasMany(Gorevler::class)->where('isDelete',0);
 }
     public function work()
     {
-        return $this->hasMany(Work::class, 'project_name', 'project_name')->orderByRaw('FIELD(status,"3","0","1","2","4")')->where('deleted',0);
+        return $this->hasMany(Work::class, 'project_name', 'project_name')->orderByRaw('FIELD(status,"3","0","1","2","4")')->where('isDelete',0);
     }
     public function leader()
     {

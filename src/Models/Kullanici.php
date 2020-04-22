@@ -14,7 +14,7 @@ class Kullanici extends Authenticatable
 
 
 
-    protected $table = "yonetici";
+    protected $table = "administrator";
 
     protected $guarded = [];
 

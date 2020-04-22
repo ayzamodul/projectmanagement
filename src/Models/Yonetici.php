@@ -14,7 +14,7 @@ class Yonetici extends Authenticatable
 
 
 
-    protected $table = "yonetici";
+    protected $table = "administrator";
 
     protected $guarded = [];
 

@@ -1,11 +1,13 @@
 <?php
 
-namespace ayzamodul\projectmanagement\providers;
+namespace g3ntl3m3n\projectmanagement\providers;
 
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
+use function foo\func;
 
 
 Class ProjectServiceProvider extends ServiceProvider
@@ -22,6 +24,7 @@ Class ProjectServiceProvider extends ServiceProvider
             'url' => '/yonetim/gorev',
             'aktif_mi' => 1
         ];
+
 
         $count = DB::table('moduller')->where('Baslik', 'Projeler')->count();
 

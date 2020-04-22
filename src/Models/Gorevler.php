@@ -35,6 +35,6 @@ class Gorevler extends Authenticatable{
     }
 
     public function work(){
-        return $this->belongsTo(Work::class,'task_id')->where('deleted',0);
+        return $this->belongsTo(Work::class,'task_id')->where('isDelete',0);
     }
 }
