@@ -1,6 +1,6 @@
 <?php
 
-namespace g3ntl3m3n\projectmanagement\providers;
+namespace ayzamodul\projectmanagement\providers;
 
 
 use Illuminate\Support\Facades\Schema;
